@@ -23,8 +23,8 @@ except ImportError as import_error:
     input("엔터를 누르면 종료합니다...")
     raise SystemExit(1)
 
-
-DISCORD_TOKEN = "MTUyMjY1NTI1MDU4MDkwMjAwMA.G62M_X.71FseRdZewfnEQmIqCt08344zjCNCeklKu21tM"
+access_token = os.environ["BOT_TOKEN"]
+DISCORD_TOKEN = "access_token"
 BOT_VERSION = "3.0.0-py"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
